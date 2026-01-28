@@ -1,3 +1,5 @@
+import { verifyInvariantHash } from "./invariant/hashGuard";
+
 import { UNIVERSE, FAST_TICK_MS } from "./config/universe.js";
 import { binanceAdapter } from "./exchanges/binance.js";
 import { coinbaseAdapter } from "./exchanges/coinbase.js";
@@ -8,6 +10,10 @@ import { runObserverTick } from "./runner/observer.js";
 import { logEvent } from "./ledger/ledger.js";
 import { computeMismatch } from "./runner/mismatch.js";
 import { allocate } from "./runner/allocator.js";
+
+/* 🔒 HARD BOUNDARY — invariant must pass before anything else */
+verifyInvariantHash();
+
 
 const adapters = [binanceAdapter, coinbaseAdapter];
 

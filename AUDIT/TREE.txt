@@ -1,0 +1,192 @@
+.
+├── _AUDIT
+│   └── EXPORTS
+├── _RUNTIME
+│   ├── ledger
+│   │   └── ledger.ndjson
+│   ├── ledger.ndjson
+│   ├── reports
+│   └── snapshots
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       └── heads
+│   │           └── main
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── b00fe8bb5ccf9baf3b3d42e33d9a3ba9d9a202
+│   │   ├── 01
+│   │   │   └── f8c5b6ad3bad73cc088f248e4119ac15695180
+│   │   ├── 03
+│   │   │   └── 8d87477a71c18c4599e74fb99ad00a6e1e52af
+│   │   ├── 05
+│   │   │   └── 9b6796de6b5657adf7880c24ff52a6efc8240e
+│   │   ├── 06
+│   │   │   └── 76097e6a159aaa18349f1254ccb6daa97db4d5
+│   │   ├── 08
+│   │   │   └── aa14cc287e6743f5b8d6cff237909c4da20b38
+│   │   ├── 0c
+│   │   │   └── cacd35a3cc312fe9fc161981e24e35fd7d1348
+│   │   ├── 11
+│   │   │   └── 3c8ed116cd5e2ab1a188646f5b52f5e25b02ac
+│   │   ├── 17
+│   │   │   └── 01086e9dedebe1cb2e065bd406e6d90cbddd0c
+│   │   ├── 1d
+│   │   │   └── 3571cd199a95ce4be25be62463edcc711ded5f
+│   │   ├── 35
+│   │   │   └── e05e61b71ed9489e222e18ee997215ef462cfe
+│   │   ├── 3b
+│   │   │   └── 61c535a6e5f2bfd3089c5c65fa0c23d1da637f
+│   │   ├── 4f
+│   │   │   └── a046aa114b1f15af5cbc090a2189aeb6447aac
+│   │   ├── 5f
+│   │   │   └── c87d7a945933f9edf40f3d509ba7b15bc84d8c
+│   │   ├── 61
+│   │   │   └── 4389159cdaa0d1d1fe0adfc7a04148b4989fb7
+│   │   ├── 66
+│   │   │   └── 4914cda6aaa095cf3817c25c89e0163c0c75a3
+│   │   ├── 68
+│   │   │   └── f819e55c5dd9a506ffa7702b3f3a161e94b535
+│   │   ├── 6d
+│   │   │   └── ecbdac7bb7ef45190c346300530ddbf0737f60
+│   │   ├── 7a
+│   │   │   └── 1b757cfefdc5d79fa9dfba27c24257ee834c9d
+│   │   ├── 7d
+│   │   │   └── d7caf29a1eb1bae309a7e94671bca2125d3382
+│   │   ├── 81
+│   │   │   └── 9c6e3aa7923a917bda5a608a9e3c52d23ae08a
+│   │   ├── 8a
+│   │   │   ├── 2a55c4a5a9eb2ec1403c663ab18471bd4a1889
+│   │   │   └── ca26684e809edd70432a9bffc3fc3d68c9394e
+│   │   ├── 8c
+│   │   │   └── 88426f82befd2e00c973e7ee462fe827cac560
+│   │   ├── 9b
+│   │   │   └── d0b547677585e18416d0c9384ae2db4f9f968a
+│   │   ├── 9e
+│   │   │   └── e2b90b3bc00a83ee0775d55abaa8bb4afa6f28
+│   │   ├── a0
+│   │   │   └── 30169875498900baffa8aa42e73c45fb0a7eef
+│   │   ├── a6
+│   │   │   └── e44e6872470ef62f3be48d12d52237ad7f98f0
+│   │   ├── ae
+│   │   │   └── 942d60fb1aae7315c306709eeb597397f7f8b6
+│   │   ├── b0
+│   │   │   └── 576b8c53e67afd4c7eeee706237a62a8e06092
+│   │   ├── b3
+│   │   │   └── b2d2deb1d5749f23895f05f2c6712d6e54a79f
+│   │   ├── c0
+│   │   │   └── dfc8a141e4398c9fc825cc623735990ab9661c
+│   │   ├── c5
+│   │   │   └── 1bb6c0f2baab02f3ba31a1466012c6a154ea53
+│   │   ├── cd
+│   │   │   └── 18d3f8d78d80dfb66439a17b2d0a79c8aa5cda
+│   │   ├── ce
+│   │   │   └── c4a3a4be23b646dbb4033a716a4bbb26fc0856
+│   │   ├── d6
+│   │   │   └── b8f62a2f7e43fc3db2097b7d1c6c425146e9db
+│   │   ├── db
+│   │   │   └── 3fc4f41f54c253e2fbad4e77764c6044f8e839
+│   │   ├── dd
+│   │   │   └── f48fb93d48479a3c34c1c03afd1af80cd4d0d6
+│   │   ├── e4
+│   │   │   └── 366f76719c7e240a7520bf0febfba9f9e99d28
+│   │   ├── e6
+│   │   │   ├── 60c024a87741554f53e57a745262e3eca81e42
+│   │   │   └── e8093ab9ce279c0c0b445964c27c041ec4194b
+│   │   ├── e7
+│   │   │   └── 8378aefbe5043262c10995b562a7e73f7da6e9
+│   │   ├── f1
+│   │   │   ├── 1e741ac756897b1f88746736ab5aa94250d6fa
+│   │   │   └── d4b881144268a0c52bfd9e0ae7c0ed12523569
+│   │   ├── f6
+│   │   │   └── d16148529fa087fbb8e59ad171ff0c86d70ddb
+│   │   ├── fc
+│   │   │   ├── 035601f5b0be8436d33725382eb1bf868a72fd
+│   │   │   └── 066f0ecc3d107a61d2be0ee474994beb0d5b65
+│   │   ├── ff
+│   │   │   └── 90c2ebdc5bfe7d1c9dfe3057d5b7a602de7a9b
+│   │   ├── info
+│   │   └── pack
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       └── tags
+│           └── CANON_OBSERVER_V1
+├── .gitignore
+├── AUDIT
+│   ├── INVARIANT.md
+│   ├── INVARIANT.sha256
+│   ├── PACKAGES.txt
+│   └── TREE.txt
+├── package-lock.json
+├── package.json
+├── README.md
+├── src
+│   ├── config
+│   │   ├── runnerControl.ts
+│   │   └── universe.ts
+│   ├── exchanges
+│   │   ├── aggregate.ts
+│   │   ├── binance.ts
+│   │   ├── coinbase.ts
+│   │   ├── kraken.ts
+│   │   ├── multi.ts
+│   │   └── types.ts
+│   ├── hunt
+│   │   └── huntPolicy.ts
+│   ├── index.ts
+│   ├── invariant
+│   │   ├── coreInvariant.ts
+│   │   └── hashGuard.ts
+│   ├── ledger
+│   │   └── ledger.ts
+│   ├── microshift
+│   │   └── microshift.ts
+│   ├── prism
+│   │   ├── prism.ts
+│   │   └── symbols.ts
+│   ├── runner
+│   │   ├── allocator.ts
+│   │   ├── bookLag.ts
+│   │   ├── consensus.ts
+│   │   ├── executor.ts
+│   │   ├── gaussianity.ts
+│   │   ├── lattice.ts
+│   │   ├── loop.ts
+│   │   ├── mismatch.ts
+│   │   ├── observer.ts
+│   │   ├── scheduler.ts
+│   │   ├── score.ts
+│   │   ├── state.ts
+│   │   ├── window.ts
+│   │   └── windows.ts
+│   ├── seeker
+│   │   └── activeSeeker.ts
+│   └── strategies
+│       ├── breakoutRetest.ts
+│       └── liquiditySweepReversal.ts
+└── tsconfig.json
+
+75 directories, 115 files
