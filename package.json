@@ -12,9 +12,12 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@supabase/supabase-js": "^2.97.0",
     "@types/node": "^25.0.10",
+    "dotenv": "^17.3.1",
     "node-fetch": "^3.3.2",
     "tsx": "^4.21.0",
+    "twilio": "^5.12.2",
     "typescript": "^5.9.3"
   }
 }
