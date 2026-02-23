@@ -7,6 +7,8 @@ import * as twilio from "twilio";
 import * as crypto from "crypto";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import * as dotenv from "dotenv";
+import { fileURLToPath } from "url";
+import { resolve } from "path";
 
 dotenv.config();
 
@@ -198,7 +200,7 @@ export async function handleAuthorityEvent(
   // Step 2: Send SMS notification for DENY events or critical actions
   let smsResult: SMSResult | undefined;
   const shouldNotify = event.decision === "DENY" || 
-    event.metadata?.["critical"] === true;
+    event.metadata?.critical === true;
 
   if (shouldNotify) {
     smsResult = await sendSMSNotification(event, hash);
@@ -244,7 +246,17 @@ export { twilioClient, supabase };
  MODULE SELF-TEST (runs when executed directly)
 **********************************************************************/
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+const isMainModule = (): boolean => {
+  try {
+    const modulePath = fileURLToPath(import.meta.url);
+    const entryPath = resolve(process.argv[1] ?? "");
+    return modulePath === entryPath;
+  } catch {
+    return false;
+  }
+};
+
+if (isMainModule()) {
   console.log("[FASS WITNESS] Running self-test...");
   
   const testEvent: AuthorityEvent = {
